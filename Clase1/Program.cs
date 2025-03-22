@@ -1,21 +1,24 @@
-﻿namespace PracticaN1
+﻿using System;
+
+namespace Program
 {
+
     internal class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("Hello World!");
     }
+}
 }
 
 public class Banco
 {
-    
-  // Atributos
-  public string Nombre;
-  public string Ubicacion;
-  public int CantidadClientes;
+
+    // Atributos
+    public string Nombre;
+    public string Ubicacion;
+    public int CantidadClientes;
 }
 
 
